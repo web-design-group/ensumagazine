@@ -24,6 +24,11 @@
   font-display: swap;
 }
 
+html{
+    display: flex;
+    justify-content: center;
+}
+
 html, body, h1, h2, h3, span, button, div{
   font-family: 'Inter', sans-serif;
 }
