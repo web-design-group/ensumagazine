@@ -1,0 +1,97 @@
+<link rel="stylesheet" href="../stylesheets/newsletter.css">
+<header class="mainHeader">
+  <div class="linkContainer">
+    <a href="../index.html" class="navLink logo">главная</a>
+    <a href="#" class="navLink contactsTg">контакты</a>
+  </div>
+
+  <div class="spanContainer">
+    <span><b>(a)</b></span>
+    <span class="categoryName">ensu magazine</span>
+  </div>
+</header>
+
+<div class="mainContainer">
+  <main class="gridContainer">
+
+    <section class="heroSection">
+      <p class="subMenuText">
+        Подписывайтесь на рассылку, чтобы узнавать
+        <br />
+        о новых статьях первым!
+      </p>
+
+      <div class="mainBanner">
+        <img src="../assets/newsletter/HeaderPic.png" alt="ALENA x ALENA" />
+      </div>
+
+      <h1 class="mainTitle">РАССЫЛКА СООБЩЕСТВА</h1>
+    </section>
+
+    <section class="articleSection section1">
+      <div class="sectionText">
+        <section id="feedback" class="card">
+          <h2>Форма обратной связи</h2>
+          <p> Заполните форму, чтобы задать вопрос или оставить предложение. </p>
+          
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">
+                Ваше имя <span class="required">*</span>
+              </label>
+              <input type="text" id="name" name="name" placeholder="Анастасия" required />
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Электронная почта <span class="required">*</span></label>
+              <input type="email" id="email" name="email" placeholder="example@mail.ru" required />
+            </div>
+
+            <div class="form-group">
+              <span class="label-like">Тип обращения</span>
+              <div class="radio-group">
+                <label class="radio-label">
+                  <input type="radio" name="requestType" value="question" checked /> Вопрос
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="requestType" value="suggestion" /> Предложение
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Сообщение <span class="required">*</span></label>
+              <textarea id="message" name="message" placeholder="Ваше сообщение..." required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label class="checkbox-label">
+                <input type="checkbox" name="consent" required />
+                Я согласен(на) на обработку персональных данных <span class="required">*</span>
+              </label>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="submit-btn">Отправить сообщение</button>
+              <button type="reset" class="reset-btn"> Очистить форму </button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </section>
+
+    <div class="contactsSection" id="contacts">
+      <div class="contacts">
+        <span>контакты</span>
+        <span>VK: ensumagazinevk</span>
+        <span>Telegram: ensumagazinetg</span>
+        <span>Instagram: ensumagazineig</span>
+        <span>Mail: ensumagazine@gmail.com</span>
+      </div>
+      <div class="qrCodes">
+        <img src="../assets/qr-1.png"/>
+        <img src="../assets/qr-2.png"/>
+      </div>
+    </div>
+  </main>
+</div>
